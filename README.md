@@ -14,7 +14,7 @@ stack:
   - "🔧 Automation: Ansible"
   - "🌐 Web Server: Nginx"
   - "💾 Database: MySQL 8.0"
-  - "⚙️ PHP Processing: PHP-FPM 8.2"
+  - "⚙️ PHP Processing: PHP-FPM 8.3"
   - "📝 CMS: WordPress"
   - "🛡️ Security: UFW + Fail2Ban + Let's Encrypt"
   - "🐧 OS: Ubuntu 22.04 LTS"
@@ -25,7 +25,7 @@ stack:
 setup:
   prerequisites:
     - "Control machine: Linux/macOS with Ansible"
-    - "Target server: Ubuntu 22.04"
+    - "Target server: Ubuntu 24.04"
     - "SSH access to target server"
     - "Domain name pointing to server"
 
