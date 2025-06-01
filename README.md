@@ -2,7 +2,7 @@
 # 🚀 PROJECT OVERVIEW
 # ========================
 project_name: "Hardened WordPress on LEMP Stack"
-description: "Automated deployment of secure WordPress on Ubuntu 22.04"
+description: "Automated deployment of secure WordPress on Ubuntu 24.04"
 main_playbook: "main-playbook.yaml"
 inventory_file: "inventory"
 vault_password_file: ".vault_pass.txt"
@@ -14,10 +14,10 @@ stack:
   - "🔧 Automation: Ansible"
   - "🌐 Web Server: Nginx"
   - "💾 Database: MySQL 8.0"
-  - "⚙️ PHP Processing: PHP-FPM 8.2"
+  - "⚙️ PHP Processing: PHP-FPM 832"
   - "📝 CMS: WordPress"
   - "🛡️ Security: UFW + Fail2Ban + Let's Encrypt"
-  - "🐧 OS: Ubuntu 22.04 LTS"
+  - "🐧 OS: Ubuntu 24.04 LTS"
 
 # ========================
 # 🚦 QUICK START
@@ -25,7 +25,7 @@ stack:
 setup:
   prerequisites:
     - "Control machine: Linux/macOS with Ansible"
-    - "Target server: Ubuntu 22.04"
+    - "Target server: Ubuntu 24.04"
     - "SSH access to target server"
     - "Domain name pointing to server"
 
