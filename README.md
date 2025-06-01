@@ -14,7 +14,11 @@ stack:
   - "🔧 Automation: Ansible"
   - "🌐 Web Server: Nginx"
   - "💾 Database: MySQL 8.0"
+<<<<<<< HEAD
   - "⚙️ PHP Processing: PHP-FPM 832"
+=======
+  - "⚙️ PHP Processing: PHP-FPM 8.3"
+>>>>>>> origin/master
   - "📝 CMS: WordPress"
   - "🛡️ Security: UFW + Fail2Ban + Let's Encrypt"
   - "🐧 OS: Ubuntu 24.04 LTS"
